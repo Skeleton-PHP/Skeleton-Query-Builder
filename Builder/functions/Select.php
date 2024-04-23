@@ -1,5 +1,8 @@
 <?php
-
+/**
+ * @file
+ * Select method for SQLbuilder
+ */
 namespace QueryBuilder;
 
 use QueryBuilder\Interfaces\QueryInterface;

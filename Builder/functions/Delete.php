@@ -1,4 +1,8 @@
 <?php
+/**
+ * @file
+ * Delete method for SQLbuilder
+ */
 namespace QueryBuilder;
 
 use QueryBuilder\Interfaces\QueryInterface;
