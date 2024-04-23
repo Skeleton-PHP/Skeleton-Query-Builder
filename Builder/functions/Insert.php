@@ -8,15 +8,15 @@ namespace QueryBuilder;
 use QueryBuilder\Interfaces\QueryInterface;
 
 class Insert implements QueryInterface{
-    private $_table;
+    private $table;
     private $columns = [];
     private $values = [];
     public function __construct(string $table){
-        $this->_table = $table;
+        $this->table = $table;
     }
 
     public function __toString(): string{
-        return 'INSERT INTO ' . $this->_table
+        return 'INSERT INTO ' . $this->table
             . ' (' . implode(', ',$this->columns) . ') VALUES (' . implode(', ',$this->values) . ')';
     }
     public function columns(string ...$columns): self{
