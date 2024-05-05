@@ -1,7 +1,7 @@
 {
     "name": "vertanzil/sql-builder",
     "description": "SQL builder for php",
-    "type": "project",
+    "type": "component",
     "license": "MIT",
     "autoload": {
         "psr-4": {
