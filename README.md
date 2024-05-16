@@ -2,6 +2,11 @@
 SQLBuilder is a MySQL bsed builder for quickly and easily building database strings,
 and being able to implement these to pull information from a database.
 
+### Imports to use when setting up your project.
+
+use QueryBuilder\QueryBuilder;
+use QueryBuilder\Select;
+
 
 ### INSERT INTO EXAMPLE TABLE
 `$insertquery = (new QueryBuilder())
