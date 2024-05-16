@@ -4,8 +4,8 @@ and being able to implement these to pull information from a database.
 
 ### Imports to use when setting up your project.
 
-use QueryBuilder\QueryBuilder;
-use QueryBuilder\Select;
+`use QueryBuilder\QueryBuilder;
+use QueryBuilder\Select;`
 
 
 ### INSERT INTO EXAMPLE TABLE
