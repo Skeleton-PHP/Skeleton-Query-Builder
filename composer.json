@@ -1,5 +1,5 @@
 {
-    "name": "skeletonphp/query-builder",
+    "name": "skeleton-php/query-builder",
     "description": "Mysql Builder for skeleton PHP",
     "type": "component",
     "license": "MIT",
