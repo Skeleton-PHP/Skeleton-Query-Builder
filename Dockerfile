@@ -1,2 +1,2 @@
-FROM skeletondocker/QueryBuilder/Query
+FROM alpine
 CMD [ "echo", "Test" ]
