@@ -1,11 +1,11 @@
 # sqlBuilder [![PHP Composer](https://github.com/vertanzil/QueryBuilder/actions/workflows/php.yml/badge.svg)](https://github.com/vertanzil/SQLBuilder/actions/workflows/php.yml)
-SQLBuilder is a MySQL bsed builder for quickly and easily building database strings,
+Query-Builder is a MySQL bsed builder for quickly and easily building database strings for Skeleton-PHP,
 and being able to implement these to pull information from a database.
 
 ### Imports to use when setting up your project.
 
-`use QueryBuilder\QueryBuilder;`
-`use QueryBuilder\Select;`
+`use SkeletonPHP\QueryBuilder;`
+`use SkeletonPHP\Select;`
 
 
 ### INSERT INTO EXAMPLE TABLE
