@@ -3,9 +3,9 @@
  * @file
  * Insert method for SQLbuilder
  */
-namespace QueryBuilder;
+namespace SkeletonPHP;
 
-use QueryBuilder\Interfaces\QueryInterface;
+use SkeletonPHP\Interfaces\QueryInterface;
 
 class Insert implements QueryInterface{
     private $table;

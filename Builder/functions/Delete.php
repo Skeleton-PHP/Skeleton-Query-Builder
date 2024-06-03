@@ -3,9 +3,9 @@
  * @file
  * Delete method for SQLbuilder
  */
-namespace QueryBuilder;
+namespace SkeletonPHP;
 
-use QueryBuilder\Interfaces\QueryInterface;
+use SkeletonPHP\Interfaces\QueryInterface;
 
 class Delete implements QueryInterface{
     /**

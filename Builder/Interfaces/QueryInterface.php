@@ -1,6 +1,6 @@
 <?php
 
-namespace QueryBuilder\Interfaces;
+namespace SkeletonPHP\Interfaces;
 
 interface QueryInterface
 {

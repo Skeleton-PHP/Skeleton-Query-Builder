@@ -1,5 +1,5 @@
 <?php
-namespace QueryBuilder;
+namespace SkeletonPHP;
 
 class QueryBuilder
 {

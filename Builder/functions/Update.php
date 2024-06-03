@@ -3,8 +3,8 @@
  * @file
  * Update method for SQLbuilder
  */
-namespace QueryBuilder;
-use QueryBuilder\Interfaces\QueryInterface;
+namespace SkeletonPHP;
+use SkeletonPHP\Interfaces\QueryInterface;
 
 class Update implements QueryInterface{
     /**

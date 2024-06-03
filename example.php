@@ -1,8 +1,7 @@
 <?php
-use QueryBuilder\QueryBuilder;
-use QueryBuilder\Interfaces\QueryInterface\Insert;
-use QueryBuilder\Interfaces\QueryInterface\Select;
-
+use SkeletonPHP\QueryBuilder;
+use SkeletonPHP\Interfaces\QueryInterface\Insert;
+use SkeletonPHP\Interfaces\QueryInterface\Select;
 
 ## INSERT INTO EXAMPLE TABLE
 $insertquery = (new QueryBuilder())

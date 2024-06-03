@@ -1,11 +1,11 @@
 {
-    "name": "vertanzil/sql-builder",
-    "description": "SQL builder for php",
+    "name": "skeletonphp/query-builder",
+    "description": "Mysql Builder for skeleton PHP",
     "type": "component",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Vertanzil\\SqlBuilder\\": "src/"
+            "SkeletonPHP\\SqlBuilder\\": "src/"
         }
     },
     "authors": [
