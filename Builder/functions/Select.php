@@ -1,13 +1,16 @@
 <?php
+
 /**
  * @file
  * Select method for SQLbuilder
  */
+
 namespace SkeletonPHP;
 
 use SkeletonPHP\Interfaces\QueryInterface;
 
-class Select implements QueryInterface{
+class Select implements QueryInterface
+{
     /**
      * @var array<string>
      */

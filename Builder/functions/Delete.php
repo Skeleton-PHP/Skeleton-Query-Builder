@@ -1,13 +1,16 @@
 <?php
+
 /**
  * @file
  * Delete method for SQLbuilder
  */
+
 namespace SkeletonPHP;
 
 use SkeletonPHP\Interfaces\QueryInterface;
 
-class Delete implements QueryInterface{
+class Delete implements QueryInterface
+{
     /**
      * @var string
      */
@@ -18,13 +21,15 @@ class Delete implements QueryInterface{
      */
     private $conditions = [];
 
-    public function __construct(string $table){
+    public function __construct(string $table)
+    {
         $this->table = $table;
     }
 
-    public function __toString(): string{
+    public function __toString(): string
+    {
         return 'DELETE FROM ' . $this->table . ($this->conditions === [] ? '' : ' WHERE '
-        . implode(' AND ', $this->conditions));
+            . implode(' AND ', $this->conditions));
     }
 
     public function where(string ...$where): self

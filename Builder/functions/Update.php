@@ -1,12 +1,16 @@
 <?php
+
 /**
  * @file
  * Update method for SQLbuilder
  */
+
 namespace SkeletonPHP;
+
 use SkeletonPHP\Interfaces\QueryInterface;
 
-class Update implements QueryInterface{
+class Update implements QueryInterface
+{
     /**
      * @var string
      */
