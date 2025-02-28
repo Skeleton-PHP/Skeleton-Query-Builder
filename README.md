@@ -1,4 +1,4 @@
-# Query-Builder [![PHP Composer](https://github.com/Skeleton-PHP/Skeleton-Query-Builder/actions/workflows/php.yml/badge.svg)](https://github.com/Skeleton-PHP/Skeleton-Query-Builder/actions/workflows/php.yml)
+# Skeleton-PHP Query-Builder [![PHP Composer](https://github.com/Skeleton-PHP/Skeleton-Query-Builder/actions/workflows/php.yml/badge.svg)](https://github.com/Skeleton-PHP/Skeleton-Query-Builder/actions/workflows/php.yml)
 Query-Builder is a MySQL based builder for quickly and easily building database strings for Skeleton-PHP,
 and being able to implement these to pull information from a database.
 
