@@ -2,6 +2,7 @@
     "name": "skeleton-php/query-builder",
     "description": "Mysql Builder for skeleton PHP",
     "type": "component",
+    "version": "0.0.5",
     "license": "MIT",
     "autoload": {
         "psr-4": {
@@ -11,6 +12,7 @@
     "authors": [
         {
             "name": "Kyle Smith",
+            "role": "Developer",
             "email": "73062855+vertanzil@users.noreply.github.com"
         }
     ],
